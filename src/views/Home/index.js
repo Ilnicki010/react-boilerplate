@@ -10,10 +10,8 @@ import type { Node } from 'react';
  * @exports Home
  */
 
-const add = (a, b) => a + b;
-
 const Home = (): Node => {
-  return <main>{add(3, 3)}</main>;
+  return <main>home</main>;
 };
 
 export default Home;
