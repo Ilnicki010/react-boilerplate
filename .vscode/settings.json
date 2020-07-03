@@ -1,0 +1,17 @@
+{
+  "javascript.validate.enable": false,
+  "flow.pathToFlow": "${workspaceFolder}/node_modules/.bin/flow",
+  "flow.showUncovered": true,
+  "editor.formatOnSave": true,
+  "javascript.format.enable": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // ESLint configuration
+
+  // Control whether eslint is enabled for JavaScript files or not.
+  "eslint.enable": true,
+
+  // The eslint options object to provide args to the eslint command.
+  "eslint.options": {},
+  "prettier.requireConfig": true,
+  "prettier.printWidth": 80
+}
